@@ -4,5 +4,8 @@ class ApplicationController < ActionController::Base
     end 
     def openLottery
     end 
-    
+    def applyLottery
+    end 
+   
+
     end
