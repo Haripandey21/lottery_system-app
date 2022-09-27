@@ -6,6 +6,8 @@ class ApplicationController < ActionController::Base
     end 
     def applyLottery
     end 
+    def closeLottery
+    end 
    
 
     end

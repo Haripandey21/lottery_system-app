@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root "pages#index"
   get 'openLottery' => 'pages#openLottery'
   get 'applyLottery' => 'pages#applyLottery'
+  get 'closeLottery' => 'pages#closeLottery'
 end
