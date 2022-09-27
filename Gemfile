@@ -72,4 +72,5 @@ group :test do
 end
 
 gem "cssbundling-rails"
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 

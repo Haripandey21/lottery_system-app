@@ -1,0 +1,10 @@
+ <div class="container" >
+<div class = "col-md-5 offset-md-3">
+<%= simple_form_for :form, :url => '/' do |f| %>
+  <%= f.input :open_Time, as: :datetime, html5: true %> <br>
+  <%= f.input :close_Time, as: :datetime, html5: true %> <br>
+   <%= f.input :lottery_Price, :as => :integer,placeholder: 'in Eth' %> <br>
+    <%= f.submit 'create', class: 'btn btn-primary'%>   
+<% end %>
+</div>
+</div>
