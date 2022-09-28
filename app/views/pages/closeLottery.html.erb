@@ -1,5 +1,9 @@
+
+
+ <div id = "wrap">
+ <%= render 'shared/participants' %> 
+ </div>
 <br>
 <%= simple_form_for :form, :url => '/' do |f| %>
-  <h1> Only Manager can close the lottery</h1>
     <%= f.submit 'CLose Lottery', class: 'btn btn-primary'%>   
 <% end %>
