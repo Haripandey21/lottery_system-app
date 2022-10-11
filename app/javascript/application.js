@@ -7,11 +7,10 @@ import * as bootstrap from "bootstrap"
 
 // import "../javascript/custom/index"  
 
+import "./custom/index" 
 
-
-
-
-import "./custom/index"
+import "./custom/open_lottery_form"
+import "./custom/close_lottery_form"
 
 
 

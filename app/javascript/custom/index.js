@@ -14,6 +14,7 @@ $(async function(){
             login()
         }   
         
+       
     }else{
         alert("Please install metamask");   
     }
@@ -24,9 +25,9 @@ $(document).on('turbo:load',function(){
     login()          
 })
 
- // check signature in local starage ....
+ // check signature in local storage ....
 const checkSignature = async(message)=>{
-    console.log("localstorage from",window.localStorage.getItem('signature'))
+    // console.log("localstorage from",window.localStorage.getItem('signature'))
     if((localStorage.getItem('signature'))=='true')
     {
         return true

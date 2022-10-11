@@ -1,4 +1,3 @@
 $("#closeLotterybutton").on("click",function(){
 
-
 })

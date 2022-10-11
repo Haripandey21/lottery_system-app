@@ -9,4 +9,7 @@ class ApplicationController < ActionController::Base
     def closeLottery
     end    
 
+    def create
+    end
+
     end

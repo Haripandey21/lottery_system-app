@@ -1,13 +1,16 @@
- <br><br><br><br>
- <div class="container" >
-<div class = "col-md-5 offset-md-3">
-<%= simple_form_for :form,id: 'formData', :url => '/' do |f| %>
-  <%= f.input :open_Time, as: :datetime, html5: true %> <br>
-  <%= f.input :close_Time, as: :datetime, html5: true %> <br>
-   <%= f.input :lottery_Price, :as => :integer,placeholder: 'in Eth' %> <br>
-    <%= f.submit 'create', class: 'btn btn-primary',  id: 'createLotterybtn'%>   
-<% end %>
-</div>
-</div>
+<turbo-frame id="card-index">
+  <div class="col-md-6 offset-md-3 mt-5">
+    <%= simple_form_for :form, url: pages_path, id: 'formId', method: :post do |f|%>
 
-
+      <%= f.input :lottery_price, :as => :integer, :label => 'Lottery Price'%>
+      <br>
+      <%= f.input :open_time, as: :datetime, :start_year => Date.today.year, :label => "Lottery Open Time", html5: true %>
+      <br>
+      <%= f.input :close_time, :as => :datetime, :label => 'Lottery Close Time', html5: true %>
+      <br>
+      <div class="d-grid">
+        <%= f.submit 'Submit', class: 'btn btn-primary', id: 'openLotterybtn'%>
+      <% end %>
+    </div>
+  </div>
+</turbo-frame>

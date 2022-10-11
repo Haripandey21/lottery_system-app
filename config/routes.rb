@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get 'applyLottery' => 'pages#applyLottery'
   get 'closeLottery' => 'pages#closeLottery'
 
+  resources :pages
+
 end
