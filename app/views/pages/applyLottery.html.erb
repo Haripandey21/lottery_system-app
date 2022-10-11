@@ -1,7 +1,43 @@
-<br>
- <div class="form-center">
-<%= simple_form_for :form, :url => '/' do |f| %>
-   <h1>The lottery price is 0.001 eth </h1>
-    <%= f.submit 'Apply Now', class: 'btn btn-primary', id: 'applyLotterybtn'%>   
-<% end %>
+
+<br><br><div class =align-center >
+<div class="card text-center" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Lottery price : </li>
+    <li class="list-group-item">Opened Time :</li>
+    <li class="list-group-item">Closing Time : </li>
+    <button type="button" class="btn btn-dark", id='applyBtn'>Apply</button>
+  </ul>
 </div>
+<div>
+<br><br>
+
+<turbo-frame id="main">
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">S.NO.</th>
+          <th scope="col">Address</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>0*1234569888</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>0*12356</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>0*123455</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</turbo-frame>

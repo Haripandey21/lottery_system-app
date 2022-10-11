@@ -11,11 +11,12 @@ import "./custom/index"
 
 import "./custom/open_lottery_form"
 import "./custom/close_lottery_form"
+import "./custom/applylottery"
 
 
 
 // import ABI from "./abi/lottery_system.json" assert { type: "json" }
-//import Web3 from 'web3'
+// import Web3 from 'web3'
 // let lotterycontract
 // let web3
 
