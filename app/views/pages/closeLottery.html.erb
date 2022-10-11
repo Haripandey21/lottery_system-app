@@ -1,9 +1,9 @@
 
 
- <div id = "wrap">
- <%= render 'shared/participants' %> 
- </div>
-<br>
-<%= simple_form_for :form, :url => '/' do |f| %>
-    <%= f.submit 'CLose Lottery', class: 'btn btn-primary'%>   
-<% end %>
+ <%# <div id = "wrap">
+ <%= render 'shared/participants' 
+ </div> %>
+ <br>
+ <div>
+<button type="button" class="btn btn-dark" id="closeLotteryBtn">close Lottery</button>
+</div>

@@ -15,6 +15,7 @@ import "./custom/applylottery"
 
 
 
+
 // import ABI from "./abi/lottery_system.json" assert { type: "json" }
 // import Web3 from 'web3'
 // let lotterycontract
