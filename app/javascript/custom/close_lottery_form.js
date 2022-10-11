@@ -1,0 +1,4 @@
+$("#closeLotterybutton").on("click",function(){
+
+
+})
